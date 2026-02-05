@@ -301,7 +301,7 @@ elif page == "🔮 Prediction":
                     f"{API_URL}/predict",
                     json=input_data,
                     headers={"Content-Type": "application/json"},
-                    timeout=60
+                    timeout=90
                 )
                 
                 if response.status_code == 200:
