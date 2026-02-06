@@ -76,7 +76,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API Configuration
-API_URL = "https://sheharyarkhan.pythonanywhere.com"# ⚠️ CHANGE THIS TO YOUR PYTHONANYWHERE URL
+API_URL = "https://diabetespredicationapp3-production.up.railway.app"# ⚠️ CHANGE THIS TO YOUR PYTHONANYWHERE URL
 
 # Initialize session state
 if 'prediction_history' not in st.session_state:
